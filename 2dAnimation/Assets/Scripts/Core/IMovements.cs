@@ -9,7 +9,7 @@ namespace Core
 {
     public interface IMovements
     {
-        void LeftMovement();
+        Vector2 LeftMovement();
         Vector2 RightMovement();
     }
 }

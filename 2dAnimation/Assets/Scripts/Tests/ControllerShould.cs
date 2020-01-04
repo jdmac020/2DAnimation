@@ -75,12 +75,23 @@ namespace Tests
             var controller = new GameObject().AddComponent<Controller>();
             var startX = controller.transform.position.x;
 
-            Assert.IsNotNull(controller.transform.position.x);
-            Assert.IsNotNull(controller.transform.position.y);
-
             var result = controller.RightMovement();
 
             Assert.Less(startX, result.x);
+        }
+
+        [Test]
+        public void DecreaseHorizontalAxisWhenMovingLeft()
+        {
+            var controller = new GameObject().AddComponent<Controller>();
+            var startX = controller.transform.position.x;
+
+            Assert.IsNotNull(controller.transform.position.x);
+            Assert.IsNotNull(controller.transform.position.y);
+
+            var result = controller.LeftMovement();
+
+            Assert.Greater(startX, result.x);
         }
 
         // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use

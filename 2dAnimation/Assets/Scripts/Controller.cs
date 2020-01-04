@@ -10,9 +10,11 @@ public class Controller : MonoBehaviour, IMovements
     public bool IsFacingRight { get; private set; } = true;
     public float MoveSpeed = .1f;
 
-    public void LeftMovement()
+    public Vector2 LeftMovement()
     {
         if (IsFacingRight) IsFacingRight = false;
+
+        return new Vector2(transform.position.x - MoveSpeed, transform.position.y);
     }
 
     public Vector2 RightMovement()
