@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
-    public Rigidbody RigidBody { get; set; }
+    public Rigidbody2D RigidBody { get; set; }
+
+    private void Awake()
+    {
+        RigidBody = GetComponent<Rigidbody2D>();
+    }
 
     // Start is called before the first frame update
     void Start()

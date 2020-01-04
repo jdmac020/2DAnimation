@@ -6,11 +6,11 @@ using UnityEngine.TestTools;
 
 namespace Tests
 {
-    public class ControllerTest
+    public class ControllerShould
     {
         // A Test behaves as an ordinary method
         [Test]
-        public void ControllerTestSimplePasses()
+        public void HaveRigidBody2D()
         {
             var controller = new GameObject().AddComponent<Controller>();
             // Use the Assert class to test conditions
