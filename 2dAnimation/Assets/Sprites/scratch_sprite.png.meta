@@ -1,0 +1,1219 @@
+fileFormatVersion: 2
+guid: 9f7dd41c136316f439fbd9395ff0d590
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1961347111468648774
+    second: scratch_sprite_0
+  - first:
+      213: 4787104859535682461
+    second: scratch_sprite_1
+  - first:
+      213: -2718627881667297016
+    second: scratch_sprite_2
+  - first:
+      213: 4975990374663418106
+    second: scratch_sprite_3
+  - first:
+      213: -8285970725285987917
+    second: scratch_sprite_4
+  - first:
+      213: 3793763182666853024
+    second: scratch_sprite_5
+  - first:
+      213: 4729546769474380063
+    second: scratch_sprite_6
+  - first:
+      213: 5455067000614752018
+    second: scratch_sprite_7
+  - first:
+      213: -2206726786508661589
+    second: scratch_sprite_8
+  - first:
+      213: -1800982562210043522
+    second: scratch_sprite_9
+  - first:
+      213: 210275582874327779
+    second: scratch_sprite_10
+  - first:
+      213: -4979300864169019334
+    second: scratch_sprite_11
+  - first:
+      213: 8715070817760344893
+    second: scratch_sprite_12
+  - first:
+      213: 2129697999447728226
+    second: scratch_sprite_13
+  - first:
+      213: -5031478040260693902
+    second: scratch_sprite_14
+  - first:
+      213: -6008092192485123211
+    second: scratch_sprite_15
+  - first:
+      213: -8790734582159771834
+    second: scratch_sprite_16
+  - first:
+      213: 5274097715388799371
+    second: scratch_sprite_17
+  - first:
+      213: -1513930360244480558
+    second: scratch_sprite_18
+  - first:
+      213: -241664884871011850
+    second: scratch_sprite_19
+  - first:
+      213: 7287145910565737864
+    second: scratch_sprite_20
+  - first:
+      213: -2284409012718996014
+    second: scratch_sprite_21
+  - first:
+      213: -214063252526971797
+    second: scratch_sprite_22
+  - first:
+      213: -7608836148222248788
+    second: scratch_sprite_23
+  - first:
+      213: -2102526522381722722
+    second: scratch_sprite_24
+  - first:
+      213: 6714201573357259428
+    second: scratch_sprite_25
+  - first:
+      213: -5786707519275928591
+    second: scratch_sprite_26
+  - first:
+      213: 6028043525272729748
+    second: scratch_sprite_27
+  - first:
+      213: 3376437591114404178
+    second: scratch_sprite_28
+  - first:
+      213: 1052631733791452987
+    second: scratch_sprite_29
+  - first:
+      213: -5183589962856411695
+    second: scratch_sprite_30
+  - first:
+      213: -6347678575218014270
+    second: scratch_sprite_31
+  - first:
+      213: -1534304824637674296
+    second: scratch_sprite_32
+  - first:
+      213: 1996009325473465703
+    second: scratch_sprite_33
+  - first:
+      213: 6680788398421038615
+    second: scratch_sprite_34
+  - first:
+      213: -611505233263640978
+    second: scratch_sprite_35
+  - first:
+      213: -172684793714461520
+    second: scratch_sprite_36
+  - first:
+      213: 6171616525799502473
+    second: scratch_sprite_37
+  - first:
+      213: 6538744014389650921
+    second: scratch_sprite_38
+  - first:
+      213: -6351290469328473185
+    second: scratch_sprite_39
+  - first:
+      213: 6370706570593975924
+    second: scratch_sprite_40
+  - first:
+      213: 1707068663288635690
+    second: scratch_sprite_41
+  - first:
+      213: 4779183438242843679
+    second: scratch_sprite_42
+  - first:
+      213: 7893652352661056144
+    second: scratch_sprite_43
+  - first:
+      213: -2878829219965846859
+    second: scratch_sprite_44
+  - first:
+      213: 9113888835969832363
+    second: scratch_sprite_45
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: scratch_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2480
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e5c4ff60db94446a5116cafdaa759e
+      internalID: 1961347111468648774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2480
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd30f279c6c13b42a191b6a9d71e475
+      internalID: 4787104859535682461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 2480
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b6a939f5b6f8a4190c6fe6aab16ed8
+      internalID: -2718627881667297016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 2480
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc14b4a9bf95e346b7a060cf1ee1bb1
+      internalID: 4975990374663418106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 2480
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52315300f5ac5944a342c1a90277fe2
+      internalID: -8285970725285987917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 2480
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864c1862a4d7c4145b18873cde14dc87
+      internalID: 3793763182666853024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 2480
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f63d6fcec45864da694a59d4607e19
+      internalID: 4729546769474380063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 2480
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18440db198b66eb4c8351991a0253182
+      internalID: 5455067000614752018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1984
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fe8b1d604b98647a1087edfd577354
+      internalID: -2206726786508661589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1984
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a625f2e4be4cf4daa02b3de409bcd5
+      internalID: -1800982562210043522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1984
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbd184738142c94887c2e31c9015cd4
+      internalID: 210275582874327779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1984
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4c281868aee884c946f0e746af17ac
+      internalID: -4979300864169019334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1984
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf68aaf0ebfda647ab4a4f57fb80df6
+      internalID: 8715070817760344893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1984
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8219b12c10f31a48bf2379b9457f3d0
+      internalID: 2129697999447728226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1984
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f427b852a33a949a9c3562ffef57df
+      internalID: -5031478040260693902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 1984
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b540212476134ac4c80af6ad5d444435
+      internalID: -6008092192485123211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1488
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b8c10a012fb7246930cf8d6b9fbd6a
+      internalID: -8790734582159771834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1488
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b94abe4040d521498a1d53e0a4e95b5
+      internalID: 5274097715388799371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1488
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316a693ad8860264dbfdb09f0f4d50bc
+      internalID: -1513930360244480558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1488
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a565df5f195e9f645bb6ba18cde23b7e
+      internalID: -241664884871011850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1488
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c358eeeb74ba32d4e8f50283d15c0a3e
+      internalID: 7287145910565737864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1488
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aff6a9ce46f494796d2021501f5a27
+      internalID: -2284409012718996014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1488
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26982dacfb69a70478cdfe3143e75ddb
+      internalID: -214063252526971797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 1488
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f3fb599beda0a43acc82077e56ffd6
+      internalID: -7608836148222248788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 992
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b4f3b1ae0d03747806100a65b599bc
+      internalID: -2102526522381722722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 992
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9b761ed990dc547a310aa6b5039588
+      internalID: 6714201573357259428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 992
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ddf25c45b9a9146b59f3a294f1b9db
+      internalID: -5786707519275928591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 992
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdac4fb54818e446973f99edb9d137a
+      internalID: 6028043525272729748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 992
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68e582385f738a4c8138f76cc8e0970
+      internalID: 3376437591114404178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 992
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a7c9a5d7f605f4d8fa3e0f2259e137
+      internalID: 1052631733791452987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 992
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b09179b9b12e9446881d333fa258d83
+      internalID: -5183589962856411695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 992
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7746153bb40c2b44b1a91fbc8dd5ef2
+      internalID: -6347678575218014270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cbc8e5da392214cb64b411cc1bd528
+      internalID: -1534304824637674296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 496
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fb1f6a3a493a047a537f7baf3565ad
+      internalID: 1996009325473465703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 496
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69b6524be5273e409c5a8cd3ef9fae8
+      internalID: 6680788398421038615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 496
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511507484e8b9cd4b9e165e4a5cfef10
+      internalID: -611505233263640978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 496
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659e0ef69145d4d4c83dff6e5d66de04
+      internalID: -172684793714461520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 496
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4b84a01c2624c4fb0b7fd9162b55d2
+      internalID: 6171616525799502473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 496
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1f56f56535d784dab62f1408fb51a1
+      internalID: 6538744014389650921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 496
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d060a4a40bcf74b47a66977b30bb7ac2
+      internalID: -6351290469328473185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549f5a7107605e54a93984bb52844d9d
+      internalID: 6370706570593975924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_41
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 0
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cf50fdd3c2bb74c805dd85ab9f14b2
+      internalID: 1707068663288635690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_42
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 0
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138221ec490c51a4aac7bd35202e483c
+      internalID: 4779183438242843679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_43
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 0
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db86c00c12b815744bc9a0dc3db9e813
+      internalID: 7893652352661056144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_44
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 0
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adc1e57d3e51144384bfa337e510baa
+      internalID: -2878829219965846859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch_sprite_45
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 0
+        width: 370
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb95a11138d958d4fbcea48e1084e3f3
+      internalID: 9113888835969832363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
