@@ -8,15 +8,18 @@ public class Controller : MonoBehaviour, IMovements
 {
     public Rigidbody2D RigidBody { get; set; }
     public bool IsFacingRight { get; private set; } = true;
+    public float MoveSpeed = .1f;
 
-    public void MoveLeft()
+    public void LeftMovement()
     {
         if (IsFacingRight) IsFacingRight = false;
     }
 
-    public void MoveRight()
+    public Vector2 RightMovement()
     {
         if (!IsFacingRight) IsFacingRight = true;
+
+        return new Vector2(transform.position.x + MoveSpeed, transform.position.y);
     }
 
     private void Awake()

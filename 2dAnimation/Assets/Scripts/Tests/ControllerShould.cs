@@ -30,7 +30,7 @@ namespace Tests
         {
             var controller = new GameObject().AddComponent<Controller>();
 
-            controller.MoveLeft();
+            controller.LeftMovement();
 
             Assert.IsFalse(controller.IsFacingRight);
         }
@@ -41,9 +41,9 @@ namespace Tests
             var controller = new GameObject().AddComponent<Controller>();
 
             Assert.IsTrue(controller.IsFacingRight);
-            controller.MoveLeft();
+            controller.LeftMovement();
             Assert.IsFalse(controller.IsFacingRight);
-            controller.MoveRight();
+            controller.RightMovement();
             Assert.IsTrue(controller.IsFacingRight);
         }
 
@@ -52,7 +52,7 @@ namespace Tests
         {
             var controller = new GameObject().AddComponent<Controller>();
 
-            controller.MoveRight();
+            controller.RightMovement();
 
             Assert.IsTrue(controller.IsFacingRight);
         }
@@ -61,11 +61,26 @@ namespace Tests
         public void FlipOnceThenStayLeft()
         {
             var controller = new GameObject().AddComponent<Controller>();
-
-            controller.MoveLeft();
-            controller.MoveLeft();
+            controller.RigidBody = new Rigidbody2D();
+            
+            controller.LeftMovement();
+            controller.LeftMovement();
 
             Assert.IsFalse(controller.IsFacingRight);
+        }
+
+        [Test]
+        public void IncreaseHorizontalAxisWhenMovingRight()
+        {
+            var controller = new GameObject().AddComponent<Controller>();
+            var startX = controller.transform.position.x;
+
+            Assert.IsNotNull(controller.transform.position.x);
+            Assert.IsNotNull(controller.transform.position.y);
+
+            var result = controller.RightMovement();
+
+            Assert.Less(startX, result.x);
         }
 
         // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
