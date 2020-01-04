@@ -1,24 +1,25 @@
-﻿using System.Collections;
+﻿using Core;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class Controller : MonoBehaviour
+public class Controller : MonoBehaviour, IMovements
 {
     public Rigidbody2D RigidBody { get; set; }
+    public bool IsFacingRight { get; private set; } = true;
+
+    public void MoveLeft()
+    {
+        if (IsFacingRight) IsFacingRight = false;
+    }
 
     private void Awake()
     {
         RigidBody = GetComponent<Rigidbody2D>();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
         
     }

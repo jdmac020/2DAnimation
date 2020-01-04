@@ -1,8 +1,8 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
+using UnityEngine.InputSystem;
 
 namespace Tests
 {
@@ -13,8 +13,26 @@ namespace Tests
         public void HaveRigidBody2D()
         {
             var controller = new GameObject().AddComponent<Controller>();
-            // Use the Assert class to test conditions
+            
             Assert.IsInstanceOf<Rigidbody2D>(controller.RigidBody);
+        }
+
+        [Test]
+        public void StartFacingRight()
+        {
+            var controller = new GameObject().AddComponent<Controller>();
+            
+            Assert.IsTrue(controller.IsFacingRight);
+        }
+
+        [Test]
+        public void FlipWhenMovingLeft()
+        {
+            var controller = new GameObject().AddComponent<Controller>();
+
+            controller.MoveLeft();
+
+            Assert.IsFalse(controller.IsFacingRight);
         }
 
         // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
