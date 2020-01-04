@@ -35,6 +35,39 @@ namespace Tests
             Assert.IsFalse(controller.IsFacingRight);
         }
 
+        [Test]
+        public void FlipWhenMovingRight()
+        {
+            var controller = new GameObject().AddComponent<Controller>();
+
+            Assert.IsTrue(controller.IsFacingRight);
+            controller.MoveLeft();
+            Assert.IsFalse(controller.IsFacingRight);
+            controller.MoveRight();
+            Assert.IsTrue(controller.IsFacingRight);
+        }
+
+        [Test]
+        public void NotFlipWhenMovingRight()
+        {
+            var controller = new GameObject().AddComponent<Controller>();
+
+            controller.MoveRight();
+
+            Assert.IsTrue(controller.IsFacingRight);
+        }
+
+        [Test]
+        public void FlipOnceThenStayLeft()
+        {
+            var controller = new GameObject().AddComponent<Controller>();
+
+            controller.MoveLeft();
+            controller.MoveLeft();
+
+            Assert.IsFalse(controller.IsFacingRight);
+        }
+
         // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
         // `yield return null;` to skip a frame.
         [UnityTest]

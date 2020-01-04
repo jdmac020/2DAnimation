@@ -14,6 +14,11 @@ public class Controller : MonoBehaviour, IMovements
         if (IsFacingRight) IsFacingRight = false;
     }
 
+    public void MoveRight()
+    {
+        if (!IsFacingRight) IsFacingRight = true;
+    }
+
     private void Awake()
     {
         RigidBody = GetComponent<Rigidbody2D>();

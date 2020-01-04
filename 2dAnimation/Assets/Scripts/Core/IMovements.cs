@@ -9,5 +9,6 @@ namespace Core
     public interface IMovements
     {
         void MoveLeft();
+        void MoveRight();
     }
 }
