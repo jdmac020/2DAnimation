@@ -1,8 +1,6 @@
 ﻿using Core;
-using System.Collections;
-using System.Collections.Generic;
+using static Core.GlobalValues;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class Controller : MonoBehaviour, IMovements
 {
@@ -56,11 +54,11 @@ public class Controller : MonoBehaviour, IMovements
 
     private bool MovingRight()
     {
-        return Input.GetAxis("Horizontal") > MoveSpeed;
+        return Input.GetAxis(HORIZONTAL) > AXIS_MIN;
     }
 
     private bool MovingLeft()
     {
-        return Input.GetAxis("Horizontal") < -MoveSpeed;
+        return Input.GetAxis(HORIZONTAL) < -AXIS_MIN;
     }
 }
