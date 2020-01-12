@@ -94,6 +94,18 @@ namespace Tests
             Assert.Greater(startX, result.x);
         }
 
+        [Test]
+        public void FaceLeftWhileMovingLeft()
+        {
+            var controller = new GameObject().AddComponent<Controller>();
+
+            Assert.Greater(controller.transform.localScale.x, 0);
+
+            _ = controller.LeftMovement();
+
+            Assert.Less(controller.transform.localScale.x, 0);
+        }
+
         // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
         // `yield return null;` to skip a frame.
         [UnityTest]
