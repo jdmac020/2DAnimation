@@ -5,8 +5,15 @@ using UnityEngine;
 public class Controller : MonoBehaviour, IMovements
 {
     public Rigidbody2D RigidBody { get; set; }
+    public Animator Animator { get; set; }
     public bool IsFacingRight { get; private set; } = true;
     public float MoveSpeed = .1f;
+
+    private void Awake()
+    {
+        RigidBody = GetComponent<Rigidbody2D>();
+        Animator = GetComponent<Animator>();
+    }
 
     public Vector2 LeftMovement()
     {
@@ -35,10 +42,6 @@ public class Controller : MonoBehaviour, IMovements
         IsFacingRight = !IsFacingRight;
     }
 
-    private void Awake()
-    {
-        RigidBody = GetComponent<Rigidbody2D>();
-    }
 
     private void FixedUpdate()
     {

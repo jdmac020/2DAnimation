@@ -18,6 +18,14 @@ namespace Tests
         }
 
         [Test]
+        public void HaveAnimator()
+        {
+            var controller = new GameObject().AddComponent<Controller>();
+
+            Assert.IsInstanceOf<Animator>(controller.Animator);
+        }
+
+        [Test]
         public void StartFacingRight()
         {
             var controller = new GameObject().AddComponent<Controller>();
