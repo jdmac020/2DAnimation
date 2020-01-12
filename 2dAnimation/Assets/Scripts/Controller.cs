@@ -44,13 +44,23 @@ public class Controller : MonoBehaviour, IMovements
 
     private void FixedUpdate()
     {
-        if (Input.GetAxis("Horizontal") < -0.1f)
-        {
-            RigidBody.MovePosition(LeftMovement());
-        }
-        else if (Input.GetAxis("Horizontal") > 0.1f)
+        if (MovingRight())
         {
             RigidBody.MovePosition(RightMovement());
         }
+        else if (MovingLeft())
+        {
+            RigidBody.MovePosition(LeftMovement());
+        }
+    }
+
+    private bool MovingRight()
+    {
+        return Input.GetAxis("Horizontal") > MoveSpeed;
+    }
+
+    private bool MovingLeft()
+    {
+        return Input.GetAxis("Horizontal") < -MoveSpeed;
     }
 }
