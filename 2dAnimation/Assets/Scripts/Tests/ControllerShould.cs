@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using NUnit.Framework;
 using UnityEngine;
-using UnityEngine.TestTools;
 using UnityEngine.InputSystem;
+using UnityEngine.TestTools;
 
 namespace Tests
 {
@@ -127,7 +127,7 @@ namespace Tests
         }
 
         [Test]
-        public void LeftThenRightWhileMovingBackAndForth()
+        public void FaceLeftThenRightWhileMovingBackAndForth()
         {
             var controller = new GameObject().AddComponent<Controller>();
 
@@ -143,12 +143,25 @@ namespace Tests
         // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
         // `yield return null;` to skip a frame.
         [UnityTest]
-        [Ignore("This ain't a real thing yet")]
-        public IEnumerator ControllerTestWithEnumeratorPasses()
+        [Ignore("Maybe not a valuable test? Maybe how to test unclear?")]
+        public IEnumerator UpdateAnimatorMoveValue()
         {
             // Use the Assert class to test conditions.
             // Use yield to skip a frame.
-            yield return null;
+            var parentObject = new GameObject("Test Dude").AddComponent<Controller>();
+            parentObject.Animator = new GameObject().AddComponent<Animator>();
+            var value = parentObject.IsWalking;
+
+            //var keyboard = InputSystem.AddDevice<Keyboard>();
+            //keyboard.leftArrowKey.QueueValueChange(.5f);
+           // InputSystem.Update();
+            yield return new WaitForFixedUpdate();
+
+            value = parentObject.IsWalking;
+            Debug.Log($"In test IsWalking Is {value}");
+
+            Assert.IsTrue(value);
+            
         }
     }
 }

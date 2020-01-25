@@ -7,6 +7,7 @@ public class Controller : MonoBehaviour, IMovements
     public Rigidbody2D RigidBody { get; set; }
     public Animator Animator { get; set; }
     public bool IsFacingRight { get; private set; } = true;
+    public bool IsWalking { get; private set; }
     public float MoveSpeed = .1f;
 
     private void Awake()
@@ -47,6 +48,18 @@ public class Controller : MonoBehaviour, IMovements
     {
         var horizontalInput = Input.GetAxis(HORIZONTAL);
 
+        IsWalking = true;
+        Debug.Log($"Inside Fixed Update IsWalking Is {IsWalking}");
+
+        if (horizontalInput != 0)
+        {
+            IsWalking = true;
+        }
+        else
+        {
+            IsWalking = false;
+        }
+
         if (MovingRight(horizontalInput))
         {
             RigidBody.MovePosition(RightMovement());
@@ -55,6 +68,8 @@ public class Controller : MonoBehaviour, IMovements
         {
             RigidBody.MovePosition(LeftMovement());
         }
+
+        Animator.SetFloat("move", Mathf.Abs(horizontalInput));
     }
 
     private bool MovingRight(float input)
